@@ -1,0 +1,39 @@
+.board {
+    display: flex;
+    gap: 2rem;
+    flex: 1;
+    margin-right: 1rem;
+    justify-content: space-between
+}
+
+
+.column {
+    background-color: #f7f7f7;
+    border-radius: 6px;
+    padding: 8px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    transition: background-color 0.2s;
+}
+
+.column-drag-over {
+    background-color: #e0eaff;
+}
+
+
+.column h2 {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.task-draggable {
+    margin-bottom: 8px;
+}
+
+.dragging {
+    background-color: rgba(255, 255, 255, 0.7);
+}
